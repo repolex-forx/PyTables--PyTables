@@ -1,0 +1,7 @@
+[2026-04-12T21:49:40Z] === AST ITERATION 1 START | repo=PyTables/PyTables sha=7361a059 ===
+[2026-04-12T21:49:40Z] [iter=1] PHASE START: ast repo=PyTables/PyTables sha=7361a059
+[2026-04-12T21:49:40Z] [iter=1] Building AST aggregate chunks
+[2026-04-12T21:55:24Z] [iter=1] AST chunks built count=1 triples=4199088
+[2026-04-12T21:55:24Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/7361a059d92d3cbe8a45850dbe4452208af120f7/.complete
+[2026-04-12T21:55:24Z] [iter=1] PHASE END: ast elapsed_s=344 elapsed_min=5.7
+[2026-04-12T21:55:24Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
