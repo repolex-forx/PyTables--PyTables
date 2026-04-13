@@ -1,0 +1,59 @@
+[2026-04-13T06:19:04Z] === ENRICH ITERATION 3 START | repo=PyTables/PyTables sha=7361a059 ===
+[2026-04-13T06:19:04Z] [iter=3] PHASE START: enrich repo=PyTables/PyTables sha=7361a059 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/7361a059-enrich-iter-003.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/7361a059d92d3cbe8a45850dbe4452208af120f7.nq.gz
+[2026-04-13T06:19:10Z] [iter=3] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-04-13T06:19:45Z] [iter=3] AST store loaded triples=4199088 load_secs=33 mem_mb=902 MB
+[2026-04-13T06:19:45Z] [iter=3] Step 2: Finding LSP targets mem_mb=902 MB
+[2026-04-13T06:19:58Z] [iter=3] LSP targets found call_sites=34446 imports=675 extends=784 implements=0 secs=13
+[2026-04-13T06:20:05Z] [iter=3] Loaded checkpoint partial graph triples=172660
+[2026-04-13T06:20:17Z] [iter=3] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=902 MB
+[2026-04-13T06:20:41Z] [iter=3] Position index built positions=289532 nodes_with_types=373474 secs=24 mem_mb=1312 MB
+[2026-04-13T06:20:41Z] [iter=3] Step 3: Starting LSP resolution mem_mb=1312 MB already_completed_types=[] already_completed_files=110
+[2026-04-13T06:20:41Z] [iter=3] Resolving target type target_type=call_site count=34446
+[2026-04-13T06:20:42Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=1.6 files_done=0 resolved=0 errors=0 current=tables/tests/test_hdf5compat.py
+[2026-04-13T06:25:00Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=5.9 files_done=1 resolved=5 errors=154 current=bench/deep-tree-h5py.py
+[2026-04-13T06:25:36Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=6.5 files_done=2 resolved=29 errors=176 current=bench/read-table.py
+[2026-04-13T06:26:27Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=7.4 files_done=4 resolved=59 errors=206 current=examples/direct-chunk-shape.py
+[2026-04-13T06:27:06Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=8.0 files_done=5 resolved=77 errors=229 current=examples/array1.py
+[2026-04-13T06:29:10Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=10.1 files_done=7 resolved=127 errors=303 current=examples/multiprocess_access_benchmarks.py
+[2026-04-13T06:30:32Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=11.5 files_done=8 resolved=172 errors=352 current=tables/utils.py
+[2026-04-13T06:31:44Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=12.7 files_done=9 resolved=252 errors=395 current=bench/create-large-number-objects.py
+[2026-04-13T06:32:24Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=13.3 files_done=12 resolved=288 errors=419 current=doc/scripts/pickletrouble.py
+[2026-04-13T06:32:57Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=13.9 files_done=14 resolved=311 errors=439 current=examples/vlarray2.py
+[2026-04-13T06:34:11Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=15.1 files_done=15 resolved=323 errors=484 current=tables/tests/test_utils.py
+[2026-04-13T06:34:50Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=15.8 files_done=17 resolved=356 errors=507 current=bench/pytables_backend.py
+[2026-04-13T06:35:38Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=16.6 files_done=19 resolved=383 errors=536 current=examples/table1.py
+[2026-04-13T06:36:51Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=17.8 files_done=21 resolved=447 errors=580 current=examples/objecttree.py
+[2026-04-13T06:37:37Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=18.6 files_done=23 resolved=467 errors=607 current=bench/copy-bench.py
+[2026-04-13T06:39:00Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=19.9 files_done=25 resolved=478 errors=656 current=examples/simple_threading.py
+[2026-04-13T06:39:30Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=20.4 files_done=26 resolved=495 errors=674 current=bench/blosc.py
+[2026-04-13T06:40:24Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=21.3 files_done=27 resolved=522 errors=706 current=tables/tests/test_all.py
+[2026-04-13T06:40:56Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=21.9 files_done=30 resolved=542 errors=725 current=doc/source/cookbook/py2exe_howto/pytables_test.py
+[2026-04-13T06:41:26Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=22.4 files_done=32 resolved=559 errors=743 current=examples/tutorial3-2.py
+[2026-04-13T06:42:05Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=23.0 files_done=33 resolved=559 errors=766 current=examples/particles.py
+[2026-04-13T06:42:40Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=23.6 files_done=34 resolved=609 errors=787 current=bench/stress-test3.py
+[2026-04-13T06:43:14Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=24.2 files_done=35 resolved=660 errors=807 current=tables/unimplemented.py
+[2026-04-13T06:43:56Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=24.9 files_done=37 resolved=719 errors=832 current=bench/optimal-chunksize.py
+[2026-04-13T06:44:29Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=25.4 files_done=39 resolved=755 errors=852 current=examples/split.py
+[2026-04-13T06:45:03Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=26.0 files_done=41 resolved=775 errors=872 current=bench/widetree2.py
+[2026-04-13T06:45:53Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=26.8 files_done=43 resolved=793 errors=902 current=tables/path.py
+[2026-04-13T06:46:25Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=27.4 files_done=45 resolved=828 errors=921 current=examples/table3.py
+[2026-04-13T06:47:05Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=28.0 files_done=47 resolved=854 errors=945 current=examples/links.py
+[2026-04-13T06:47:45Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=28.7 files_done=48 resolved=864 errors=969 current=tables/indexes.py
+[2026-04-13T06:48:26Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=29.4 files_done=51 resolved=893 errors=993 current=examples/undo-redo.py
+[2026-04-13T06:49:26Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=30.4 files_done=52 resolved=893 errors=1029 current=examples/index.py
+[2026-04-13T06:50:23Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=31.3 files_done=54 resolved=905 errors=1063 current=examples/array3.py
+[2026-04-13T06:50:57Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=31.9 files_done=56 resolved=920 errors=1083 current=examples/carray1.py
+[2026-04-13T06:51:28Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=32.4 files_done=60 resolved=931 errors=1102 current=tables/tests/test_garbage.py
+[2026-04-13T06:51:59Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=32.9 files_done=66 resolved=948 errors=1119 current=src/H5ATTR.c
+[2026-04-13T06:53:23Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=34.3 files_done=69 resolved=968 errors=1169 current=src/utils.c
+[2026-04-13T06:54:08Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=35.1 files_done=71 resolved=1000 errors=1196 current=src/H5ARRAY-opt.c
+[2026-04-13T06:56:15Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=37.2 files_done=72 resolved=1033 errors=1272 current=src/H5Zlzo.c
+[2026-04-13T06:56:29Z] [iter=3] Target type resolved target_type=call_site resolved=1115 errors=1280 secs=2149 mem_mb=1336 MB
+[2026-04-13T06:56:29Z] [iter=3] Resolving target type target_type=import_statement count=675
+[2026-04-13T06:56:34Z] [iter=3] Target type resolved target_type=import_statement resolved=153 errors=0 secs=5 mem_mb=1336 MB
+[2026-04-13T06:56:34Z] [iter=3] Resolving target type target_type=extends_clause count=784
+[2026-04-13T06:56:36Z] [iter=3] Target type resolved target_type=extends_clause resolved=19 errors=0 secs=1 mem_mb=1336 MB
+[2026-04-13T06:56:54Z] [iter=3] Step 5: Writing final enrichment file triples=279875
+[2026-04-13T06:57:00Z] [iter=3] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/7361a059d92d3cbe8a45850dbe4452208af120f7.nq.gz size_kb=5724
+[2026-04-13T06:57:00Z] [iter=3] Checkpoint cleared (enrichment complete)
+[2026-04-13T06:57:00Z] [iter=3] PHASE END: enrich elapsed_s=2277 elapsed_min=37.9 total_triples=279875
