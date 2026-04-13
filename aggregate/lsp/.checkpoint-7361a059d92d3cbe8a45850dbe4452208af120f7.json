@@ -1,0 +1,41 @@
+{
+  "commit_sha": "7361a059d92d3cbe8a45850dbe4452208af120f7",
+  "completed_files": [
+    "bench/open_close-bench.py",
+    "bench/recarray2-test.py",
+    "doc/source/conf.py",
+    "examples/filenodes1.py",
+    "tables/atom.py",
+    "tables/index.py",
+    "tables/tests/test_basics.py",
+    "tables/tests/test_carray.py",
+    "tables/tests/test_create.py",
+    "tables/tests/test_do_undo.py",
+    "tables/tests/test_expression.py",
+    "tables/tests/test_indexes.py",
+    "tables/tests/test_indexvalues.py",
+    "tables/tests/test_tables.py",
+    "tables/tests/test_vlarray.py"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/PyTables/PyTables/lsp/7361a059d92d3cbe8a45850dbe4452208af120f7",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/7361a059d92d3cbe8a45850dbe4452208af120f7.nq.gz",
+    "call_sites": 34446,
+    "import_statements": 675,
+    "call_targets_resolved": 6625,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 10397,
+    "extends_clauses": 784,
+    "implements_clauses": 0,
+    "import_modules_denormalized": 761,
+    "import_symbols_denormalized": 920,
+    "extends_class_denormalized": 784,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 14402
+}

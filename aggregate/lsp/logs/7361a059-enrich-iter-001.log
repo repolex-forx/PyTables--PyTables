@@ -1,0 +1,27 @@
+[2026-04-12T21:59:34Z] === ENRICH ITERATION 1 START | repo=PyTables/PyTables sha=7361a059 ===
+[2026-04-12T21:59:34Z] [iter=1] PHASE START: enrich repo=PyTables/PyTables sha=7361a059 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/7361a059-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/7361a059d92d3cbe8a45850dbe4452208af120f7.nq.gz
+[2026-04-12T21:59:42Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-04-12T22:00:18Z] [iter=1] AST store loaded triples=4199088 load_secs=34 mem_mb=997 MB
+[2026-04-12T22:00:18Z] [iter=1] Step 2: Finding LSP targets mem_mb=997 MB
+[2026-04-12T22:00:30Z] [iter=1] LSP targets found call_sites=34446 imports=675 extends=784 implements=0 secs=12
+[2026-04-12T22:00:41Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=997 MB
+[2026-04-12T22:01:04Z] [iter=1] Position index built positions=289532 nodes_with_types=373474 secs=23 mem_mb=1024 MB
+[2026-04-12T22:01:04Z] [iter=1] Step 3: Starting LSP resolution mem_mb=1024 MB already_completed_types=[] already_completed_files=0
+[2026-04-12T22:01:04Z] [iter=1] Resolving target type target_type=call_site count=34446
+[2026-04-12T22:01:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.5 files_done=0 resolved=0 errors=0 current=tables/tests/test_do_undo.py
+[2026-04-12T22:29:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=29.9 files_done=1 resolved=153 errors=1243 current=tables/index.py
+[2026-04-12T22:34:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=34.8 files_done=2 resolved=349 errors=1454 current=tables/tests/test_expression.py
+[2026-04-12T22:46:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=47.4 files_done=3 resolved=737 errors=2004 current=tables/tests/test_basics.py
+[2026-04-12T23:06:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=67.2 files_done=4 resolved=950 errors=2870 current=tables/tests/test_create.py
+[2026-04-12T23:28:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=88.8 files_done=5 resolved=1395 errors=3813 current=tables/tests/test_carray.py
+[2026-04-12T23:46:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=107.2 files_done=6 resolved=1829 errors=4617 current=tables/tests/test_indexes.py
+[2026-04-13T00:03:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=123.9 files_done=7 resolved=2316 errors=5345 current=tables/tests/test_tables.py
+[2026-04-13T00:46:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=167.0 files_done=8 resolved=3919 errors=7210 current=doc/source/conf.py
+[2026-04-13T01:22:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=202.5 files_done=10 resolved=5039 errors=8760 current=examples/filenodes1.py
+[2026-04-13T01:44:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=224.8 files_done=12 resolved=6067 errors=9731 current=bench/recarray2-test.py
+[2026-04-13T01:45:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=225.9 files_done=14 resolved=6184 errors=9782 current=tables/atom.py
+[2026-04-13T01:47:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=227.7 files_done=15 resolved=6282 errors=9860 current=tables/tests/test_earray.py
+[2026-04-13T01:59:37Z] [iter=1] CHECKPOINT TRIGGERED elapsed_min=240.0 files_completed=15 new_files_this_iter=15 mem_mb=1122 MB
+[2026-04-13T01:59:37Z] [iter=1] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/7361a059d92d3cbe8a45850dbe4452208af120f7.nq.gz triples=93063
+[2026-04-13T01:59:38Z] [iter=1] Checkpoint written, exiting with code 7
+[2026-04-13T01:59:38Z] [iter=1] PHASE END: enrich (checkpointed) elapsed_s=14403 elapsed_min=240.0 files_completed=15
